@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+background-color: black;
+}
+
 /* ------------------------------ CUSTOM NAVBAR START ----------------------------- */
 .alt{
     
@@ -30,4 +42,114 @@ nav {
     border-radius: 30px;
     border-bottom: solid 0.5px white;
 }
-/* ------------------------------ CUSTOM NAVBAR END ----------------------------- */
+/* --------------------------------------- CUSTOM NAVBAR END ----------------------------------- */
+
+
+
+/* ----------------------------------- ANIMATED-TEXT START -------------------------------------- */
+
+
+.letter{
+    display: block;
+    text-align: center;
+
+    color: rgb(245, 245, 245);
+    font-size: 7rem;
+    font-weight: 900;
+    font-family: myFirstFont;
+
+    transform: translateX(-100%);
+    stroke-dashoffset: 0;
+    stroke-dasharray: 100%;
+    animation: myAnimation;
+    animation-duration: 4.5s;
+    animation-timing-function: linear;
+}
+  
+  .col:nth-child(10) .letter {
+    animation-delay: -2s;
+  }
+  .col:nth-child(9) .letter {
+    animation-delay: -1.75s;
+  }
+  .col:nth-child(8)  .letter{
+    animation-delay: -1.5s;
+  }
+  .col:nth-child(7) .letter {
+    animation-delay: -1.5s;
+  }
+  .col:nth-child(6)  .letter{
+    animation-delay: -1.25s;
+  }
+  .col:nth-child(5)  .letter{
+    animation-delay: -1s;
+  }
+  .col:nth-child(4)  .letter{
+    animation-delay: -0.75s;
+  }
+  .col:nth-child(3) .letter {
+    animation-delay: -0.5s;
+  }
+  .col:nth-child(2) .letter{
+    animation-delay: -0.25s;
+  }
+  .col:nth-child(1) .letter{
+    animation-delay: -0.25s;
+  }
+  
+  @keyframes myAnimation {
+    0%,
+    50% {
+      transform: translateX(-100%);
+      stroke-dashoffset: 100%;
+    }
+    to {
+      transform: translateX(0);
+      stroke-dashoffset: 0;
+    }
+  }
+  
+/* ------------------------------------ ANIMATED-TEXT END ----------------------------------- */
+
+
+
+/* ------------------------------------ CUSTOM-FONT START ----------------------------------- */
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(small_pixel-7.ttf);
+  }
+
+
+/* ------------------------------------ CUSTOM-FONT END ----------------------------------- */
+
+
+
+
+/* ------------------------------------ FIRST DIV START ----------------------------------- */
+
+.div1-bg{
+    background-image: url('background2.png');
+    height: 100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div2-bg{
+    background-color: #0e1728;
+    height: 100vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.animated-text{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    font-size: 10vh;
+    font-family: myFirstFont ;
+}
+
+/* ------------------------------------ FIRST DIV END ----------------------------------- */
