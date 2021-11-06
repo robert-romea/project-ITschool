@@ -1,0 +1,38 @@
+body {
+	background: rgb(168,228,244);
+    background: linear-gradient(0deg, rgba(168,228,244,1) 0%, rgba(200,233,223,1) 2%, rgba(240,234,221,1) 37%);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navigation-bar {
+    background-color: white;
+}
+
+.header-style {
+	background-color: transparent;
+	color: white;
+	text-shadow: 1px 1px 8px black;
+}
+
+.style-items {
+    background-color: tomato;
+}
+
+.row-items {
+    height: 75px;
+    color: black;
+    font-size: 25px;
+}
+
+.footer-logo {
+    font-size: 3rem;
+}
+  
+  .gradient-footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,228,251,1) 2%, rgba(216,255,242,1) 100%);
+}
