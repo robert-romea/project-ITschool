@@ -1,0 +1,33 @@
+/* ------------------------------ CUSTOM NAVBAR START ----------------------------- */
+.alt{
+    
+    font-family: myFirstFont ;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.alt-2{
+    
+    font-family: myFirstFont ;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.bg-color{
+    background-color: aquamarine;
+}
+
+.blur-effect{
+    filter: blur(7px);
+}
+
+nav {
+    /* height:3.5rem; */
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    border-bottom: solid 0.5px white;
+}
+/* ------------------------------ CUSTOM NAVBAR END ----------------------------- */
