@@ -4,6 +4,10 @@ body {
     background-repeat: no-repeat;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .navigation-bar {
     background-color: white;
 }
@@ -12,4 +16,14 @@ body {
 	background-color: transparent;
 	color: white;
 	text-shadow: 1px 1px 8px black;
+}
+
+.style-items {
+    background-color: tomato;
+}
+
+.row-items {
+    height: 75px;
+    color: black;
+    font-size: 25px;
 }
