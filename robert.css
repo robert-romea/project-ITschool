@@ -175,3 +175,56 @@ h1.animated-text{
 
 
 /* ---------------------------------- CUSTOM SCROLLBAR END --------------------------------------- */
+
+
+
+/* ----------------------------------MOUSE BUTTON START -------------------------------- */
+
+.mouse-scroll{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    animation: 1s ease 0s infinite alternate-reverse both running button;
+    color: rgb(255, 255, 255);
+ }
+  
+ @keyframes button{
+    100% {
+      transform: translateY(0%);
+ }
+  
+ 0% {
+      transform: translateY(50%);
+ }
+ 
+ }
+ 
+ /* ----------------------------------MOUSE BUTTON END -------------------------------- */
+ 
+ 
+ .first-title{
+   font-size: 5rem;
+   display: flex;
+   justify-content: center;
+   color: azure;
+   background-color: transparent;
+ }
+ 
+ 
+ .gradient-2nd{
+   /* background: linear-gradient(180deg, rgba(13,90,96,0.9335084375547094) 4%, rgba(23,0,3,1) 93%); */
+   /* background: linear-gradient(0deg, rgba(13,90,96,0.9335084375547094) 4%, rgba(23,0,3,1) 93%); */
+   /* background: linear-gradient(0deg, rgba(23,0,3,1) 5%, rgba(13,90,96,0.9335084375547094) 48%, rgba(23,0,3,0.9500175070028011) 95%); */
+   background: linear-gradient(0deg, rgba(23,0,3,0.901698350238533) 6%, rgba(13,90,96,0.8848916275494573) 48%, rgba(13,90,96,0.88) 52%, rgba(23,0,3,0.9) 94%);
+ 
+ }
+  .gradient-1st{
+ background: linear-gradient(180deg, rgba(13,90,96,0.9335084375547094) 4%, rgba(23,0,3,1) 93%);
+ }
+ .black{
+   color:rgb(143, 182, 189);
+ }
+ 
